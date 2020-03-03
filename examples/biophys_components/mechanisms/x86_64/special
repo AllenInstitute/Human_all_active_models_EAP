@@ -1,0 +1,13 @@
+#!/bin/sh
+if test "x${NRNHOME}" = "x" ; then
+	NRNHOME="/allen/aibs/mat/ateam_shared/software/nrn-7.5"
+fi
+if test "x${NRNBIN}" = "x" ; then
+	NRNBIN="/allen/aibs/mat/ateam_shared/software/nrn-7.5/x86_64/bin/"
+fi
+if test "" = "yes" ; then
+	NRNIV="${NRNBIN}nrniv.app/Contents/MacOS/nrniv"
+else
+	NRNIV="${NRNBIN}nrniv"
+fi
+"${NRNIV}" -dll "/home/yinaw/yinaw/git_ateam/Human_all_active_models_EAP/examples/biophys_components/mechanisms/x86_64/.libs/libnrnmech.so" "$@"
