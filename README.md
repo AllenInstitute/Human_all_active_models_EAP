@@ -1,7 +1,6 @@
 # "Cellular classes in the human brain revealed in vivo by heartbeat-related modulation of the extracellular action potential waveform" (Mosher*, Wei* et al, Cell Reports, 2020)
 
-![](./assets/images/graphical_abstract.png)
-
+<img src="./assets/images/graphical_abstract.png" width="350" height="300" />
 
 ## Instructions
 ### Download morphology from allsdk
