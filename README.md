@@ -3,13 +3,18 @@
 ## Instructions
 ### Download morphology from allsdk
    * Install [allensdk](https://alleninstitute.github.io/AllenSDK/install.html).
-   ```
+   ```sh
    cd codes
-   jupyter-notebook Yina_download_morph_step1.ipynb
+   jupyter-notebook Yina_download_morph_step1.ipynb # Download the morphology
    ```
 
-   * Calculate rotation angels for simulations
-   In the "codes" folder: run Yina_cal_rotation_angle_step2.ipynb to calculate the rotation angle for the cell to make sure that the apical dendrites ascend toward the pia in the simulation. 
+   * Calculate rotation angels for simulations.
+   ```sh
+   jupyter-notebook Yina_cal_rotation_angle_step2.ipynb #calculate the rotation angle for the cell to make sure that the apical dendrites ascend toward the pia in the simulation.
+   ```
+   
+   
+     
 
 ### Run simulations
 
