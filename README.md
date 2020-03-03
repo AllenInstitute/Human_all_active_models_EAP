@@ -4,15 +4,15 @@
 
 ## Instructions
 ### Download morphology from allsdk
-   * Install [allensdk](https://alleninstitute.github.io/AllenSDK/install.html).
+   * Install [allensdk](https://alleninstitute.github.io/AllenSDK/install.html) to download the morphology
    ```sh
    cd codes
-   jupyter-notebook Yina_download_morph_step1.ipynb # Download the morphology
+   jupyter-notebook download_morph.ipynb # Download the morphology
    ```
 
    * Calculate rotation angels for simulations.
    ```sh
-   jupyter-notebook Yina_cal_rotation_angle_step2.ipynb #calculate the rotation angle for the cell to make sure that the apical dendrites ascend toward the pia in the simulation.
+   jupyter-notebook cal_rotation_angle.ipynb #calculate the rotation angle for the cell to make sure that the apical dendrites ascend toward the pia in the simulation.
    ```
    
    
@@ -21,8 +21,11 @@
 ### Run simulations
 
    * Install bmtk and create an enviroment(for example, we named it "bmtk_ateam"). 
+
       Please follow the instructions in this [link](https://github.com/AllenInstitute/bmtk).
+
    * Compile the modfiles
+      
       After installing bmtk, run 
       ```sh
       cd examples/biophys_components/mechanisms 
@@ -39,7 +42,7 @@
    
    ```
    cd codes/
-   jupyter-notebook Yina_EAP_analysis_step4.ipynb
+   jupyter-notebook EAP_analysis.ipynb
    ```
    to calculate and save extracellular action potential (EAP) of each electrode recordings for further analysis. 
 
