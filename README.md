@@ -38,6 +38,7 @@
 
 
 In the "assets" folder, we have included the .json files and morphologies for all the models. We also included the templates for simulations, use build_network_in.py for inhibitory aspiny cells, and build_network_pc.py for excitatory spiny cells. For each cell, one need to change parameters ROTX,ROTZ,CELLID,POPNAME, accordingly. You can find this information here:
+
       ```
       cd assets/morphologies
       vi human_celltypes_table.csv
