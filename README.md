@@ -4,7 +4,7 @@
 
 ## Instructions
 ### Download morphology from allsdk
-   * Install [allensdk](https://alleninstitute.github.io/AllenSDK/install.html) to download the morphology
+   * Install [allensdk](https://alleninstitute.github.io/AllenSDK/install.html) to download the morphology.
    ```sh
    cd codes
    jupyter-notebook download_morph.ipynb # Download the morphology
@@ -20,18 +20,16 @@
 
 ### Run simulations
 
-   * Install bmtk and create an enviroment(for example, we named it "bmtk_ateam"). 
+   * Install bmtk and create an enviroment(for example, we named it "bmtk_ateam"). Please follow the instructions in this [link](https://github.com/AllenInstitute/bmtk).
 
-      Please follow the instructions in this [link](https://github.com/AllenInstitute/bmtk).
-
-   * Compile the modfiles
-      
-      After installing bmtk, run 
+   * Compile the modfiles. After installing bmtk, run 
       ```sh
       cd examples/biophys_components/mechanisms 
       nrnivmodl modfiles/ # this should create a directory x86_64
       ```
       If you have trouble in this step, make sure you have deleted "x86_84" before compling the modfiles.
+
+   * Run simulations.
 
       In the folder "571654895_example", run the simulations using the following commands:
       ```
