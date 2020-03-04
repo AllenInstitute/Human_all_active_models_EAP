@@ -1,4 +1,4 @@
-# Single-cell all-active models of human neocortical neurons with detailed morphology
+# Single-cell all-active models of human neocortical neurons with detailed morphology simulating the extracellular action potential waveform and biophysics
 
 <img src="./assets/images/graphical_abstract.png" width="350" height="300" />
 
